@@ -1,0 +1,176 @@
+@font-face {
+	font-family: GentiumPlus;
+	src: url("f/GentiumPlus-R.woff") format("woff");
+    font-style: normal;
+}
+@font-face {
+	font-family: GentiumPlus;
+	src: url("f/GentiumPlus-I.woff") format("woff");
+    font-style: italic;
+}
+@font-face {
+	font-family: CharisSIL;
+	src: url("f/CharisSIL-R.woff") format("woff");
+    font-style: normal;
+}
+
+html {
+    font-size: 12px;
+}
+body {
+    background-color: #FFF8E7;
+    font-family: "GentiumPlus";
+}
+main {
+    width: 90rem;
+    font-size: 2rem;
+    line-height: 3.25rem;
+    margin: 1rem 3rem;
+}
+kbd {
+    box-sizing: content-box;
+    border-radius: 0.3125rem;
+    border-top: 0.25rem solid #444;
+    border-right: 0.25rem solid #000;
+    border-bottom: 0.25rem solid #000;
+    border-left: 0.25rem solid #444;
+    background-color: #222;
+    color: #fff;
+    display: inline-block;
+    margin: 0 0.15625rem;
+    padding: 0 0.5rem;
+    font-family: "CharisSIL";
+    font-size: 75%;
+    line-height: 2.5rem;
+}
+
+
+.keyboard {
+    font-family: "CharisSIL";
+    background-color: #333;
+    border-radius: 0.625rem;
+    border-top: 0.15625rem solid #555;
+    border-right: 0.15625rem solid #111;
+    border-bottom: 0.15625rem solid #111;
+    border-left: 0.15625rem solid #555;
+    padding: 0.15625rem;
+    width: auto;
+    display: inline-block;
+}
+.keyboard .row {
+    display: flex;
+    flex-direction: row;
+}
+.keyboard .key {
+    box-sizing: content-box;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.625rem;
+    border-top: 0.15625rem solid #444;
+    border-right: 0.3125rem solid #000;
+    border-bottom: 0.46875rem solid #000;
+    border-left: 0.3125rem solid #444;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    margin: 0.15625rem;
+    font-size: 1.125rem;
+    text-align: left;
+}
+.keyboard .key>div {
+    box-sizing: border-box;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.625rem;
+    font-weight: normal;
+}
+.keyboard .key>div:nth-child(n+3) {
+    color: #AA4444;
+}
+.keyboard .backspace.key,
+.keyboard .tab.key,
+.keyboard .enter.key,
+.keyboard .capslock.key,
+.keyboard .shift.key,
+.keyboard .mod.key,
+.keyboard .ctrl.key,
+.keyboard .alt.key,
+.keyboard .super.key,
+.keyboard .menu.key {
+    flex-direction: column;
+    line-height: 2.25rem;
+    text-indent: 0.625rem;
+}
+.keyboard .backspace.key {
+    width: 11.25rem;
+}
+.keyboard .tab.key {
+    width: 8.125rem;
+}
+.keyboard .upper.left.enter.key {
+    width: 1.5625rem;
+    border-right-width: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-right: 0;
+    z-index: 1;
+}
+.keyboard .upper.right.enter.key {
+    width: 6.5625rem;
+    border-left-width: 0;
+    border-bottom-width: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 5.625rem;
+    margin-bottom: 0;
+    margin-left: 0;
+    align-self: flex-start;
+}
+.keyboard .capslock.key {
+    width: 9.6875rem;
+}
+.keyboard .lower.enter.key {
+    width: 6.5625rem;
+    border-top-width: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 5.3125rem;
+    margin-top: 0;
+    align-self: flex-end;
+}
+.keyboard .left.shift.key {
+    width: 6.5625rem;
+}
+.keyboard .right.shift.key {
+    width: 15.625rem;
+}
+.keyboard .left.ctrl.key {
+    width: 6.5625rem;
+}
+.keyboard .left.super.key {
+    width: 6.5625rem;
+}
+.keyboard .left.alt.key {
+    width: 6.5625rem;
+}
+.keyboard .space.key {
+    width: 35.9375rem;
+}
+.keyboard .right.alt.key {
+    width: 6.5625rem;
+}
+.keyboard .right.super.key {
+    width: 6.5625rem;
+}
+.keyboard .menu.key {
+    width: 6.5625rem;
+}
+.keyboard .right.ctrl.key {
+    width: 6.5625rem;
+}
+
