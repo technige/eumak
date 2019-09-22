@@ -22,8 +22,8 @@
 // │ 1 3 ││ 1 = Normal │ 3 = AltGr       ││ AltMod+x -> âêîôûŵŷ čďľňřšťž │ AltGr+Mod ≡ AltMod │
 // └─────┘└──────────────────────────────┘└───────────────────────────────────────────────────┘
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━━━┓
-// │ © ® │ ! ¡ │ " ² │ # ³ │ $ ¼ │ % ½ │ & ¾ │ / ÷ │ ( × │ ) · │ = ≡ │ ? ¿ │ * § ┃ ⌫ Backspace┃
-// │ ` ´ │ 1 ~ │ 2 @ │ 3 £ │ 4 € │ 5 ° │ 6 ^ │ 7 { │ 8 [ │ 9 ] │ 0 } │ ' \ │ + ± ┃            ┃
+// │ ¯ ´ │ ! ¡ │ " ² │ # ³ │ $ ¼ │ % ½ │ & ¾ │ / ÷ │ ( × │ ) · │ = ≡ │ ? ¿ │ * § ┃ ⌫ Backspace┃
+// │ ^ ` │ 1 ~ │ 2 @ │ 3 £ │ 4 € │ 5 ° │ 6 µ │ 7 { │ 8 [ │ 9 ] │ 0 } │ ' \ │ + ± ┃            ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━━━━┫
 // ┃       ┃ Q Ą │ W Ẁ │ E È │ R Ę │ T Ț │ Y Ỳ │ U Ù │ I Ì │ O Ò │ P Ø │ Ü Å │ Ï Ÿ ┃ Enter    ┃
 // ┃Tab ↹  ┃ q ą │ w ẁ │ e è │ r ę │ t ț │ y ỳ │ u ù │ i ì │ o ò │ p ø │ ü å │ ï ÿ ┃   ⏎      ┃
@@ -64,184 +64,184 @@
 
 default partial
 xkb_symbols "basic" {
-    
+
     include "eumak(mod_switch)"
-    include "eumak(altmod_switch)"
     include "eumak(altgr_switch)"
 
-    name[Group1] = "Norm";
-    name[Group2] = "Alt";
-    
+    name[Group1] = "Normal";
+    name[Group2] = "Alternate";
+
+
     // Symbols
     //
-    key.type[Group1] = "TWO_LEVEL";
-    key.type[Group2] = "TWO_LEVEL";
+    key.type[Group1] = "FOUR_LEVEL";
+    key.type[Group2] = "FOUR_LEVEL";
     //
-    //           [===============================]
-    //           [ Norm         , Shift          ]
-    //           [===============================]
-    key <TLDE> { [ grave        , copyright      ] ,
-                 [ acute        , registered     ] };
-    //           [-------------------------------]
-    key <AE01> { [ 1            , exclam         ] ,
-                 [ asciitilde   , exclamdown     ] };
-    //           [-------------------------------]
-    key <AE02> { [ 2            , quotedbl       ] ,
-                 [ at           , twosuperior    ] };
-    //           [-------------------------------]
-    key <AE03> { [ 3            , numbersign     ] ,
-                 [ sterling     , threesuperior  ] };
-    //           [-------------------------------]
-    key <AE04> { [ 4            , dollar         ] ,
-                 [ EuroSign     , onequarter     ] };
-    //           [-------------------------------]
-    key <AE05> { [ 5            , percent        ] ,
-                 [ degree       , onehalf        ] };
-    //           [-------------------------------]
-    key <AE06> { [ 6            , ampersand      ] ,
-                 [ asciicircum  , threequarters  ] };
-    //           [-------------------------------]
-    key <AE07> { [ 7            , slash          ] ,
-                 [ braceleft    , division       ] };
-    //           [-------------------------------]
-    key <AE08> { [ 8            , parenleft      ] ,
-                 [ bracketleft  , multiply       ] };
-    //           [-------------------------------]
-    key <AE09> { [ 9            , parenright     ] ,
-                 [ bracketright , periodcentered ] };
-    //           [-------------------------------]
-    key <AE10> { [ 0            , equal          ] ,
-                 [ braceright   , identical      ] };
-    //           [-------------------------------]
-    key <AE11> { [ apostrophe   , question       ] ,
-                 [ backslash    , questiondown   ] };
-    //           [-------------------------------]
-    key <AE12> { [ plus         , asterisk       ] ,
-                 [ plusminus    , section        ] };
-    //           [-------------------------------]
+    //           [======================================================================]
+    //           [ Norm            , Shift          , Mod             , Shift+Mod       ]
+    //           [======================================================================]
+    key <TLDE> { [ asciitilde      , at             , dead_grave      , dead_grave      ] ,
+                 [ grave           , degree         , dead_grave      , dead_grave      ] };
+    //           [----------------------------------------------------------------------]
+    key <AE01> { [ 1               , exclam         , dead_acute      , dead_acute      ] ,
+                 [ acute           , exclamdown     , dead_acute      , dead_acute      ] };
+    //           [----------------------------------------------------------------------]
+    key <AE02> { [ 2               , quotedbl       , dead_caron      , dead_caron      ] ,
+                 [ caron           , onehalf        , dead_caron      , dead_caron      ] };
+    //           [----------------------------------------------------------------------]
+    key <AE03> { [ 3               , numbersign     , dead_circumflex , dead_circumflex ] ,
+                 [ asciicircum     , sterling       , dead_circumflex , dead_circumflex ] };
+    //           [----------------------------------------------------------------------]
+    key <AE04> { [ 4               , dollar         , dead_macron     , dead_macron     ] ,
+                 [ macron          , EuroSign       , dead_macron     , dead_macron     ] };
+    //           [----------------------------------------------------------------------]
+    key <AE05> { [ 5               , percent        , dead_abovedot   , dead_abovedot   ] ,
+                 [ abovedot        , section        , dead_abovedot   , dead_abovedot   ] };
+    //           [----------------------------------------------------------------------]
+    key <AE06> { [ 6               , ampersand      , dead_greek      , dead_greek      ] ,
+                 [ mu              , paragraph      , dead_greek      , dead_greek      ] };
+    //           [----------------------------------------------------------------------]
+    key <AE07> { [ 7               , slash          ] ,
+                 [ braceleft       , division       ] };
+    //           [----------------------------------]
+    key <AE08> { [ 8               , parenleft      ] ,
+                 [ bracketleft     , multiply       ] };
+    //           [----------------------------------]
+    key <AE09> { [ 9               , parenright     ] ,
+                 [ bracketright    , periodcentered ] };
+    //           [----------------------------------]
+    key <AE10> { [ 0               , equal          ] ,
+                 [ braceright      , identical      ] };
+    //           [----------------------------------]
+    key <AE11> { [ apostrophe      , question       ] ,
+                 [ backslash       , questiondown   ] };
+    //           [----------------------------------]
+    key <AE12> { [ plus            , asterisk       ] ,
+                 [ plusminus       , dagger         ] };
+    //           [==================================]
     //
-    //           [===============================]
-    //           [ Norm         , Shift          ]
-    //           [===============================]
-    key <AB08> { [ comma        , semicolon      ] ,
-                 [ less         , guillemotleft  ] };
-    //           [-------------------------------]
-    key <AB09> { [ period       , colon          ] ,
-                 [ greater      , guillemotright ] };
-    //           [-------------------------------]
-    key <AB10> { [ minus        , underscore     ] ,
-                 [ bar          , brokenbar      ] };
-    //           [===============================]
+    //           [==================================]
+    //           [ Norm            , Shift          ]
+    //           [==================================]
+    key <AB08> { [ comma           , semicolon      ] ,
+                 [ less            , guillemotleft  ] };
+    //           [----------------------------------]
+    key <AB09> { [ period          , colon          ] ,
+                 [ greater         , guillemotright ] };
+    //           [----------------------------------]
+    key <AB10> { [ minus           , underscore     ] ,
+                 [ bar             , brokenbar      ] };
+    //           [==================================]
 
     // Letters
     //
-    key.type[Group1] = "EIGHT_LEVEL_ALPHABETIC";
-    key.type[Group2] = "EIGHT_LEVEL_ALPHABETIC";
+    key.type[Group1] = "FOUR_LEVEL_ALPHABETIC";
+    key.type[Group2] = "FOUR_LEVEL_ALPHABETIC";
     //
-    //           [=====================================================================================================================]
-    //           [ Norm       , Shift      , Mod          , Shift+Mod    , AltMod       , Shift+AltMod , Mod+AltMod , Shift+Mod+AltMod ]
-    //           [=====================================================================================================================]
-    key <AD01> { [ q          , Q          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , aogonek    , Aogonek          ] ,
-                 [ aogonek    , Aogonek    , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , q          , Q                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD02> { [ w          , W          , wacute       , Wacute       , U0175        , U0174        , wgrave     , Wgrave           ] ,   // U0174 = Wcircumflex
-                 [ wgrave     , Wgrave     , U0175        , U0174        , wacute       , Wacute       , w          , W                ] };  // U0175 = wcircumflex
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD03> { [ e          , E          , eacute       , Eacute       , ecircumflex  , Ecircumflex  , egrave     , Egrave           ] ,
-                 [ egrave     , Egrave     , ecircumflex  , Ecircumflex  , eacute       , Eacute       , e          , E                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD04> { [ r          , R          , racute       , Racute       , rcaron       , Rcaron       , eogonek    , Eogonek          ] ,
-                 [ eogonek    , Eogonek    , rcaron       , Rcaron       , racute       , Racute       , r          , R                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD05> { [ t          , T          , NoSymbol     , NoSymbol     , tcaron       , Tcaron       , U021B      , U021A            ] ,   // U021A = Tcomma
-                 [ U021B      , U021A      , tcaron       , Tcaron       , NoSymbol     , NoSymbol     , t          , T                ] };  // U021B = tcomma
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD06> { [ y          , Y          , yacute       , Yacute       , ycircumflex  , Ycircumflex  , ygrave     , Ygrave           ] ,
-                 [ ygrave     , Ygrave     , ycircumflex  , Ycircumflex  , yacute       , Yacute       , y          , Y                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD07> { [ u          , U          , uacute       , Uacute       , ucircumflex  , Ucircumflex  , ugrave     , Ugrave           ] ,
-                 [ ugrave     , Ugrave     , ucircumflex  , Ucircumflex  , uacute       , Uacute       , u          , U                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD08> { [ i          , I          , iacute       , Iacute       , icircumflex  , Icircumflex  , igrave     , Igrave           ] ,
-                 [ igrave     , Igrave     , icircumflex  , Icircumflex  , iacute       , Iacute       , i          , I                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD09> { [ o          , O          , oacute       , Oacute       , ocircumflex  , Ocircumflex  , ograve     , Ograve           ] ,
-                 [ ograve     , Ograve     , ocircumflex  , Ocircumflex  , oacute       , Oacute       , o          , O                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD10> { [ p          , P          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , oslash     , Oslash           ] ,
-                 [ oslash     , Oslash     , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , p          , P                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD11> { [ udiaeresis , Udiaeresis , udoubleacute , Udoubleacute , NoSymbol     , NoSymbol     , aring      , Aring            ] ,
-                 [ aring      , Aring      , NoSymbol     , NoSymbol     , udoubleacute , Udoubleacute , udiaeresis , Udiaeresis       ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AD12> { [ idiaeresis , Idiaeresis , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , ydiaeresis , Ydiaeresis       ] ,
-                 [ ydiaeresis , Ydiaeresis , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , idiaeresis , Idiaeresis       ] };
-    //           [=====================================================================================================================]
+    //           [=======================================================]
+    //           [ Norm       , Shift      , Mod          , Shift+Mod    ]
+    //           [=======================================================]
+    key <AD01> { [ q          , Q          , NoSymbol     , NoSymbol     ] ,
+                 [ abreve     , Abreve     , abreveacute  , Abreveacute  ] };
+    //           [-------------------------------------------------------]
+    key <AD02> { [ w          , W          , wacute       , Wacute       ] ,
+                 [ lstroke    , Lstroke    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AD03> { [ e          , E          , eacute       , Eacute       ] ,
+                 [ eogonek    , Eogonek    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AD04> { [ r          , R          , racute       , Racute       ] ,
+                 [ NoSymbol   , NoSymbol   , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AD05> { [ t          , T          , NoSymbol     , NoSymbol     ] ,
+                 [ U021B      , U021A      , NoSymbol     , NoSymbol     ] };  // U021A = Tcomma, U021B = tcomma
+    //           [-------------------------------------------------------]
+    key <AD06> { [ y          , Y          , yacute       , Yacute       ] ,
+                 [ uring      , Uring      , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AD07> { [ u          , U          , uacute       , Uacute       ] ,
+                 [ uogonek    , Uogonek    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AD08> { [ i          , I          , iacute       , Iacute       ] ,
+                 [ iogonek    , Iogonek    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AD09> { [ o          , O          , oacute       , Oacute       ] ,
+                 [ oslash     , Oslash     , U01FF        , U01FE        ] };  // U01FE = Oslashacute, U01FF = oslashacute
+    //           [-------------------------------------------------------]
+    key <AD10> { [ p          , P          , U1E55        , U1E54        ] ,   // U1E54 = Pacute, U1E55 = pacute
+                 [ otilde     , Otilde     , U1E4D        , U1E4C        ] };  // U1E4C = Otildeacute, U1E4D = otildeacute
+    //           [-------------------------------------------------------]
+    key <AD11> { [ udiaeresis , Udiaeresis , udoubleacute , Udoubleacute ] ,
+                 [ aring      , Aring      , U01FB        , U01FA        ] };  // U01FA = Aringacute, U01FB = aringacute
+    //           [-------------------------------------------------------]
+    key <AD12> { [ idiaeresis , Idiaeresis , NoSymbol     , NoSymbol     ] ,
+                 [ ydiaeresis , Ydiaeresis , NoSymbol     , NoSymbol     ] };
+    //           [=======================================================]
     //
-    //           [=====================================================================================================================]
-    //           [ Norm       , Shift      , Mod          , Shift+Mod    , AltMod       , Shift+AltMod , Mod+AltMod , Shift+Mod+AltMod ]
-    //           [=====================================================================================================================]
-    key <AC01> { [ a          , A          , aacute       , Aacute       , acircumflex  , Acircumflex  , agrave     , Agrave           ] ,
-                 [ agrave     , Agrave     , acircumflex  , Acircumflex  , aacute       , Aacute       , a          , A                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC02> { [ s          , S          , sacute       , Sacute       , scaron       , Scaron       , ssharp     , U1E9E            ] ,   // U1E9E = Ssharp
-                 [ ssharp     , U1E9E      , scaron       , Scaron       , sacute       , Sacute       , s          , S                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC03> { [ d          , D          , NoSymbol     , NoSymbol     , dcaron       , Dcaron       , dstroke    , Dstroke          ] , 
-                 [ dstroke    , Dstroke    , dcaron       , Dcaron       , NoSymbol     , NoSymbol     , d          , D                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC04> { [ f          , F          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , eth        , ETH              ] ,
-                 [ eth        , ETH        , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , f          , F                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC05> { [ g          , G          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , thorn      , THORN            ] ,
-                 [ thorn      , THORN      , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , g          , G                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC06> { [ h          , H          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , abreve     , Abreve           ] ,
-                 [ abreve     , Abreve     , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , h          , H                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC07> { [ j          , J          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , ecaron     , Ecaron           ] ,
-                 [ ecaron     , Ecaron     , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , j          , J                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC08> { [ k          , K          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , uring      , Uring            ] ,
-                 [ uring      , Uring      , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , k          , K                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC09> { [ l          , L          , lacute       , Lacute       , lcaron       , Lcaron       , lstroke    , Lstroke          ] ,
-                 [ lstroke    , Lstroke    , lcaron       , Lcaron       , lacute       , Lacute       , l          , L                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC10> { [ odiaeresis , Odiaeresis , odoubleacute , Odoubleacute , NoSymbol     , NoSymbol     , oe         , OE               ] ,
-                 [ oe         , OE         , NoSymbol     , NoSymbol     , odoubleacute , Odoubleacute , odiaeresis , Odiaeresis       ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC11> { [ adiaeresis , Adiaeresis , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , ae         , AE               ] ,
-                 [ ae         , AE         , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , adiaeresis , Adiaeresis       ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AC12> { [ ediaeresis , Ediaeresis , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , wdiaeresis , Wdiaeresis       ] ,
-                 [ wdiaeresis , Wdiaeresis , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , ediaeresis , Ediaeresis       ] };
-    //           [=====================================================================================================================]
+    //           [=======================================================]
+    //           [ Norm       , Shift      , Mod          , Shift+Mod    ]
+    //           [=======================================================]
+    key <AC01> { [ a          , A          , aacute       , Aacute       ] ,
+                 [ aogonek    , Aogonek    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC02> { [ s          , S          , sacute       , Sacute       ] ,
+                 [ U0219      , U0218      , NoSymbol     , NoSymbol     ] };  // U0218 = Scomma, U0219 = scomma
+    //           [-------------------------------------------------------]
+    key <AC03> { [ d          , D          , NoSymbol     , NoSymbol     ] ,
+                 [ dstroke    , Dstroke    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC04> { [ f          , F          , NoSymbol     , NoSymbol     ] ,
+                 [ eth        , ETH        , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC05> { [ g          , G          , U01F5        , U01F4        ] ,   // U01F4 = Gacute, U01F5 = gacute
+                 [ gcedilla   , Gcedilla   , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC06> { [ h          , H          , NoSymbol     , NoSymbol     ] ,
+                 [ hstroke    , Hstroke    , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC07> { [ j          , J          , NoSymbol     , NoSymbol     ] ,
+                 [ ntilde     , Ntilde     , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC08> { [ k          , K          , U1E31        , U1E30        ] ,   // U1E30 = Kacute, U1E31 = kacute
+                 [ kcedilla   , Kcedilla   , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC09> { [ l          , L          , lacute       , Lacute       ] ,
+                 [ lcedilla   , Lcedilla   , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC10> { [ odiaeresis , Odiaeresis , odoubleacute , Odoubleacute ] ,
+                 [ oe         , OE         , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AC11> { [ adiaeresis , Adiaeresis , NoSymbol     , NoSymbol     ] ,
+                 [ ae         , AE         , U01FD        , U01FC        ] };  // U01FC = AEacute, U01FD = aeacute
+    //           [-------------------------------------------------------]
+    key <AC12> { [ ediaeresis , Ediaeresis , NoSymbol     , NoSymbol     ] ,
+                 [ wdiaeresis , Wdiaeresis , NoSymbol     , NoSymbol     ] };
+    //           [=======================================================]
     //
-    //           [=====================================================================================================================]
-    //           [ Norm       , Shift      , Mod          , Shift+Mod    , AltMod       , Shift+AltMod , Mod+AltMod , Shift+Mod+AltMod ]
-    //           [=====================================================================================================================]
-    key <AB01> { [ z          , Z          , zacute       , Zacute       , zcaron       , Zcaron       , zabovedot  , Zabovedot        ] ,
-                 [ zabovedot  , Zabovedot  , zcaron       , Zcaron       , zacute       , Zacute       , z          , Z                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AB02> { [ x          , X          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , U0219      , U0218            ] ,   // U0218 = Scomma
-                 [ U0219      , U0218      , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , x          , X                ] };  // U0219 = scomma
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AB03> { [ c          , C          , cacute       , Cacute       , ccaron       , Ccaron       , ccedilla   , Ccedilla         ] ,
-                 [ ccedilla   , Ccedilla   , ccaron       , Ccaron       , cacute       , Cacute       , c          , C                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AB04> { [ v          , V          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , atilde     , Atilde           ] ,
-                 [ atilde     , Atilde     , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , v          , V                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AB05> { [ b          , B          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , otilde     , Otilde           ] ,
-                 [ otilde     , Otilde     , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , b          , B                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AB06> { [ n          , N          , nacute       , Nacute       , ncaron       , Ncaron       , ntilde     , Ntilde           ] ,
-                 [ ntilde     , Ntilde     , ncaron       , Ncaron       , nacute       , Nacute       , n          , N                ] };
-    //           [---------------------------------------------------------------------------------------------------------------------]
-    key <AB07> { [ m          , M          , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , mu         , paragraph        ] ,
-                 [ mu         , paragraph  , NoSymbol     , NoSymbol     , NoSymbol     , NoSymbol     , m          , M                ] };
-    //           [=====================================================================================================================]
+    //           [=======================================================]
+    //           [ Norm       , Shift      , Mod          , Shift+Mod    ]
+    //           [=======================================================]
+    key <AB01> { [ z          , Z          , zacute       , Zacute       ] ,
+                 [ ssharp     , U1E9E      , NoSymbol     , NoSymbol     ] };  // U1E9E = Ssharp
+    //           [-------------------------------------------------------]
+    key <AB02> { [ x          , X          , NoSymbol     , NoSymbol     ] ,
+                 [ NoSymbol   , NoSymbol   , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AB03> { [ c          , C          , cacute       , Cacute       ] ,
+                 [ ccedilla   , Ccedilla   , U1E09        , U1E08        ] };  // U1E08 = Ccedillaacute, U1E09 = ccedillaacute
+    //           [-------------------------------------------------------]
+    key <AB04> { [ v          , V          , NoSymbol     , NoSymbol     ] ,
+                 [ thorn      , THORN      , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AB05> { [ b          , B          , NoSymbol     , NoSymbol     ] ,
+                 [ atilde     , Atilde     , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AB06> { [ n          , N          , nacute       , Nacute       ] ,
+                 [ ncedilla   , Ncedilla   , NoSymbol     , NoSymbol     ] };
+    //           [-------------------------------------------------------]
+    key <AB07> { [ m          , M          , U1E3F        , U1E3E        ] ,   // U1E3E = Macute, U1E3F = macute
+                 [ NoSymbol   , NoSymbol   , NoSymbol     , NoSymbol     ] };
+    //           [=======================================================]
 
 };
 
@@ -252,16 +252,6 @@ xkb_symbols "mod_switch" {
     key <LSGT> {
       type[Group1] = "ONE_LEVEL",
       symbols[Group1] = [ ISO_Level3_Shift ]
-    };
-};
-
-// The [AltMod] key (while pressed) chooses the fifth shift level.
-partial modifier_keys
-xkb_symbols "altmod_switch" {
-    include "level5(modifier_mapping)"
-    key <RWIN> {
-        type[Group1] = "ONE_LEVEL",
-        symbols[Group1] = [ ISO_Level5_Shift ]
     };
 };
 
