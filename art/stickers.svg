@@ -1,11 +1,55 @@
-<svg version="1.1"
-     baseProfile="full"
-     width="700" height="400"
-     xmlns="http://www.w3.org/2000/svg">
-     
-    <style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="700"
+   height="400"
+   id="svg1831"
+   sodipodi:docname="stickers.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1837">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1835" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1355"
+     id="namedview1833"
+     showgrid="false"
+     inkscape:zoom="4.37"
+     inkscape:cx="259.77954"
+     inkscape:cy="282.37986"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1741" />
+  <style
+     id="style1325">
         text {
-            font-family: "Arial", "Charis SIL";
+            font-family: &quot;Arial&quot;, &quot;Charis SIL&quot;;
             font-size: 5mm;
             text-anchor: middle;
         }
@@ -14,359 +58,1407 @@
             text-anchor: start;
         }
     </style>
-
-    <svg x="11mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">`</text>
-        <text x="3mm" y="5mm" fill="white">©</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">´</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">®</text>
-    </svg>
-
-    <svg x="22mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">1</text>
-        <text x="3mm" y="5mm" fill="white">!</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">~</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">¡</text>
-    </svg>
-
-    <svg x="33mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">2</text>
-        <text x="3mm" y="5mm" fill="white">&quot;</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">@</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">²</text>
-    </svg>
-
-    <svg x="44mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">3</text>
-        <text x="3mm" y="5mm" fill="white">#</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">£</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">³</text>
-    </svg>
-
-    <svg x="55mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">4</text>
-        <text x="3mm" y="5mm" fill="white">$</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">€</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">¼</text>
-    </svg>
-
-    <svg x="66mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">5</text>
-        <text x="3mm" y="5mm" fill="white">%</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">°</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">½</text>
-    </svg>
-
-    <svg x="77mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">6</text>
-        <text x="3mm" y="5mm" fill="white">&amp;</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">^</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">¾</text>
-    </svg>
-
-    <svg x="88mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">7</text>
-        <text x="3mm" y="5mm" fill="white">/</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">{</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">÷</text>
-    </svg>
-
-    <svg x="99mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">8</text>
-        <text x="3mm" y="5mm" fill="white">(</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">[</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">×</text>
-    </svg>
-
-    <svg x="110mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">9</text>
-        <text x="3mm" y="5mm" fill="white">)</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">]</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">·</text>
-    </svg>
-
-    <svg x="121mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">0</text>
-        <text x="3mm" y="5mm" fill="white">=</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">}</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">∞</text>
-    </svg>
-
-    <svg x="132mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">&apos;</text>
-        <text x="3mm" y="5mm" fill="white">?</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">\</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">¿</text>
-    </svg>
-
-    <svg x="143mm" y="13mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">+</text>
-        <text x="3mm" y="5mm" fill="white">*</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">±</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">§</text>
-    </svg>
-
-    <svg x="22mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Q</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ą</text>
-    </svg>
-
-    <svg x="33mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">W</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ẁ</text>
-    </svg>
-
-    <svg x="44mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">E</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">è</text>
-    </svg>
-
-    <svg x="55mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">R</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ę</text>
-    </svg>
-
-    <svg x="66mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">T</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">t</text>
-        <text x="9.6mm" y="11mm" fill="#FFCCCC">&#x0326;</text>
-    </svg>
-
-    <svg x="77mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Y</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ỳ</text>
-    </svg>
-
-    <svg x="88mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">U</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ù</text>
-    </svg>
-
-    <svg x="99mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">I</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ì</text>
-    </svg>
-
-    <svg x="110mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">O</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ò</text>
-    </svg>
-
-    <svg x="121mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">P</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ø</text>
-    </svg>
-
-    <svg x="132mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Ü</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">å</text>
-    </svg>
-
-    <svg x="143mm" y="26mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Ï</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ÿ</text>
-    </svg>
-
-    <svg x="22mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">A</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">à</text>
-    </svg>
-
-    <svg x="33mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">S</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ß</text>
-    </svg>
-
-    <svg x="44mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">D</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">đ</text>
-    </svg>
-
-    <svg x="55mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">F</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ð</text>
-    </svg>
-
-    <svg x="66mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">G</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">þ</text>
-    </svg>
-
-    <svg x="77mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">H</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ă</text>
-    </svg>
-
-    <svg x="88mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">J</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ě</text>
-    </svg>
-
-    <svg x="99mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">K</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ů</text>
-    </svg>
-
-    <svg x="110mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">L</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ł</text>
-    </svg>
-
-    <svg x="121mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Ö</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">œ</text>
-    </svg>
-
-    <svg x="132mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Ä</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">æ</text>
-    </svg>
-
-    <svg x="143mm" y="39mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Ë</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ẅ</text>
-    </svg>
-
-    <svg x="11mm" y="52mm" width="11mm" height="13mm" class="mod">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="1.5mm" y="8mm" fill="white">Mod</text>
-    </svg>
-
-    <svg x="22mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">Z</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ż</text>
-    </svg>
-
-    <svg x="33mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">X</text>
-        <text x="9.4mm" y="11mm" fill="#FFCCCC">&#x0326;</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">s</text>
-    </svg>
-
-    <svg x="44mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">C</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ç</text>
-    </svg>
-
-    <svg x="55mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">V</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ã</text>
-    </svg>
-
-    <svg x="66mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">B</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">õ</text>
-    </svg>
-
-    <svg x="77mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">N</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">ñ</text>
-    </svg>
-
-    <svg x="88mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="5mm" fill="white">M</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">µ</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">¶</text>
-    </svg>
-
-    <svg x="99mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">,</text>
-        <text x="3mm" y="5mm" fill="white">;</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">&lt;</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">«</text>
-    </svg>
-
-    <svg x="110mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">.</text>
-        <text x="3mm" y="5mm" fill="white">:</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">&gt;</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">»</text>
-    </svg>
-
-    <svg x="121mm" y="52mm" width="11mm" height="13mm">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="3mm" y="11mm" fill="white">-</text>
-        <text x="3mm" y="5mm" fill="white">_</text>
-        <text x="8mm" y="11mm" fill="#FFCCCC">|</text>
-        <text x="8mm" y="5mm" fill="#FFCCCC">¦</text>
-    </svg>
-
-    <svg x="143mm" y="52mm" width="11mm" height="13mm" class="mod">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="1.5mm" y="8mm" fill="white">Alt M</text>
-    </svg>
-
-    <svg x="154mm" y="52mm" width="16mm" height="13mm" class="mod">
-        <rect width="100%" height="100%" fill="black" />
-        <text x="1.5mm" y="8mm" fill="white">Alt Mod</text>
-    </svg>
-
-    <line x1="11mm" y1="0mm" x2="11mm" y2="78mm" stroke="#222222" />
-    <line x1="22mm" y1="0mm" x2="22mm" y2="78mm" stroke="#222222" />
-    <line x1="33mm" y1="0mm" x2="33mm" y2="78mm" stroke="#222222" />
-    <line x1="44mm" y1="0mm" x2="44mm" y2="78mm" stroke="#222222" />
-    <line x1="55mm" y1="0mm" x2="55mm" y2="78mm" stroke="#222222" />
-    <line x1="66mm" y1="0mm" x2="66mm" y2="78mm" stroke="#222222" />
-    <line x1="77mm" y1="0mm" x2="77mm" y2="78mm" stroke="#222222" />
-    <line x1="88mm" y1="0mm" x2="88mm" y2="78mm" stroke="#222222" />
-    <line x1="99mm" y1="0mm" x2="99mm" y2="78mm" stroke="#222222" />
-    <line x1="110mm" y1="0mm" x2="110mm" y2="78mm" stroke="#222222" />
-    <line x1="121mm" y1="0mm" x2="121mm" y2="78mm" stroke="#222222" />
-    <line x1="132mm" y1="0mm" x2="132mm" y2="78mm" stroke="#222222" />
-    <line x1="143mm" y1="0mm" x2="143mm" y2="78mm" stroke="#222222" />
-    <line x1="154mm" y1="0mm" x2="154mm" y2="78mm" stroke="#222222" />
-    <line x1="170mm" y1="0mm" x2="170mm" y2="78mm" stroke="#222222" />
-
-    <line x1="0mm" y1="13mm" x2="181mm" y2="13mm" stroke="#222222" />
-    <line x1="0mm" y1="26mm" x2="181mm" y2="26mm" stroke="#222222" />
-    <line x1="0mm" y1="39mm" x2="181mm" y2="39mm" stroke="#222222" />
-    <line x1="0mm" y1="52mm" x2="181mm" y2="52mm" stroke="#222222" />
-    <line x1="0mm" y1="65mm" x2="181mm" y2="65mm" stroke="#222222" />
-
+  <svg
+     x="11mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1337">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1327" />
+    <text
+       x="3mm"
+       y="11mm"
+       id="text1329"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffffff">~</text>
+    <text
+       x="3mm"
+       y="5mm"
+       id="text1331"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffffff">@</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1333"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">`</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1335"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">°</text>
+  </svg>
+  <svg
+     x="22mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1349">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1339" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1341">1</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1343">!</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1345"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">´</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1347">¡</text>
+  </svg>
+  <svg
+     x="33mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1361">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1351" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1353">2</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1355">&quot;</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1357"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">ˇ</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1359"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">½</text>
+  </svg>
+  <svg
+     x="44mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1373">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1363" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1365">3</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1367">#</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1369"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">^</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1371"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">£</text>
+  </svg>
+  <svg
+     x="55mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1385">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1375" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1377">4</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1379">$</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1381"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">¯</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1383"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">€</text>
+  </svg>
+  <svg
+     x="66mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1397">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1387" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1389">5</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1391">%</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1393"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">˙</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1395"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">§</text>
+  </svg>
+  <svg
+     x="77mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1409">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1399" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1401">6</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1403">&amp;</text>
+    <text
+       x="8mm"
+       y="11mm"
+       id="text1405"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">µ</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1407"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">¶</text>
+  </svg>
+  <svg
+     x="88mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1421">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1411" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1413">7</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1415">/</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1417">{</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1419">÷</text>
+  </svg>
+  <svg
+     x="99mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1433">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1423" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1425">8</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1427">(</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1429">[</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1431">×</text>
+  </svg>
+  <svg
+     x="110mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1445">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1435" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1437">9</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1439">)</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1441">]</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1443">·</text>
+  </svg>
+  <svg
+     x="121mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1457">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1447" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1449">0</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1451">=</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1453">}</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1455"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">≡</text>
+  </svg>
+  <svg
+     x="132mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1469">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1459" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1461">'</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1463">?</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1465">\</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1467">¿</text>
+  </svg>
+  <svg
+     x="143mm"
+     y="13mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1481">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1471" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1473">+</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1475">*</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1477">±</text>
+    <text
+       x="8mm"
+       y="5mm"
+       id="text1479"
+       style="font-size:18.89763832px;font-family:Arial, 'Charis SIL';text-anchor:middle;fill:#ffcccc">†</text>
+  </svg>
+  <svg
+     x="22mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1489">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1483" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1485">Q</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1487">ą</text>
+  </svg>
+  <svg
+     x="33mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1497">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1491" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1493">W</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1495">ẁ</text>
+  </svg>
+  <svg
+     x="44mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1505">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1499" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1501">E</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1503">è</text>
+  </svg>
+  <svg
+     x="55mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1513">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1507" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1509">R</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1511">ę</text>
+  </svg>
+  <svg
+     x="66mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1523">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1515" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1517">T</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1519">t</text>
+    <text
+       x="9.6mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1521">̦</text>
+  </svg>
+  <svg
+     x="77mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1531">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1525" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1527">Y</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1529">ỳ</text>
+  </svg>
+  <svg
+     x="88mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1539">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1533" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1535">U</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1537">ù</text>
+  </svg>
+  <svg
+     x="99mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1547">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1541" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1543">I</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1545">ì</text>
+  </svg>
+  <svg
+     x="110mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1555">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1549" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1551">O</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1553">ò</text>
+  </svg>
+  <svg
+     x="121mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1563">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1557" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1559">P</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1561">ø</text>
+  </svg>
+  <svg
+     x="132mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1571">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1565" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1567">Ü</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1569">å</text>
+  </svg>
+  <svg
+     x="143mm"
+     y="26mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1579">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1573" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1575">Ï</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1577">ÿ</text>
+  </svg>
+  <svg
+     x="22mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1587">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1581" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1583">A</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1585">à</text>
+  </svg>
+  <svg
+     x="33mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1595">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1589" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1591">S</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1593">ß</text>
+  </svg>
+  <svg
+     x="44mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1603">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1597" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1599">D</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1601">đ</text>
+  </svg>
+  <svg
+     x="55mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1611">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1605" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1607">F</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1609">ð</text>
+  </svg>
+  <svg
+     x="66mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1619">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1613" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1615">G</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1617">þ</text>
+  </svg>
+  <svg
+     x="77mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1627">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1621" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1623">H</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1625">ă</text>
+  </svg>
+  <svg
+     x="88mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1635">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1629" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1631">J</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1633">ě</text>
+  </svg>
+  <svg
+     x="99mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1643">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1637" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1639">K</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1641">ů</text>
+  </svg>
+  <svg
+     x="110mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1651">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1645" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1647">L</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1649">ł</text>
+  </svg>
+  <svg
+     x="121mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1659">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1653" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1655">Ö</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1657">œ</text>
+  </svg>
+  <svg
+     x="132mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1667">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1661" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1663">Ä</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1665">æ</text>
+  </svg>
+  <svg
+     x="143mm"
+     y="39mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1675">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1669" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1671">Ë</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1673">ẅ</text>
+  </svg>
+  <svg
+     x="11mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     class="mod"
+     version="1.1"
+     id="svg1681">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1677" />
+    <text
+       x="1.5mm"
+       y="8mm"
+       fill="white"
+       id="text1679">Mod</text>
+  </svg>
+  <svg
+     x="22mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1689">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1683" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1685">Z</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1687">ż</text>
+  </svg>
+  <svg
+     x="33mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1699">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1691" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1693">X</text>
+    <text
+       x="9.4mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1695">̦</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1697">s</text>
+  </svg>
+  <svg
+     x="44mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1707">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1701" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1703">C</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1705">ç</text>
+  </svg>
+  <svg
+     x="55mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1715">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1709" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1711">V</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1713">ã</text>
+  </svg>
+  <svg
+     x="66mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1723">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1717" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1719">B</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1721">õ</text>
+  </svg>
+  <svg
+     x="77mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1731">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1725" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1727">N</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1729">ñ</text>
+  </svg>
+  <svg
+     x="88mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1741">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1733" />
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1735">M</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1737">µ</text>
+  </svg>
+  <svg
+     x="99mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1753">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1743" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1745">,</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1747">;</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1749">&lt;</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1751">«</text>
+  </svg>
+  <svg
+     x="110mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1765">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1755" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1757">.</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1759">:</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1761">&gt;</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1763">»</text>
+  </svg>
+  <svg
+     x="121mm"
+     y="52mm"
+     width="11mm"
+     height="13mm"
+     version="1.1"
+     id="svg1777">
+    <rect
+       width="100%"
+       height="100%"
+       fill="black"
+       id="rect1767" />
+    <text
+       x="3mm"
+       y="11mm"
+       fill="white"
+       id="text1769">-</text>
+    <text
+       x="3mm"
+       y="5mm"
+       fill="white"
+       id="text1771">_</text>
+    <text
+       x="8mm"
+       y="11mm"
+       fill="#FFCCCC"
+       id="text1773">|</text>
+    <text
+       x="8mm"
+       y="5mm"
+       fill="#FFCCCC"
+       id="text1775">¦</text>
+  </svg>
+  <line
+     x1="11mm"
+     y1="0mm"
+     x2="11mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1791" />
+  <line
+     x1="22mm"
+     y1="0mm"
+     x2="22mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1793" />
+  <line
+     x1="33mm"
+     y1="0mm"
+     x2="33mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1795" />
+  <line
+     x1="44mm"
+     y1="0mm"
+     x2="44mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1797" />
+  <line
+     x1="55mm"
+     y1="0mm"
+     x2="55mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1799" />
+  <line
+     x1="66mm"
+     y1="0mm"
+     x2="66mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1801" />
+  <line
+     x1="77mm"
+     y1="0mm"
+     x2="77mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1803" />
+  <line
+     x1="88mm"
+     y1="0mm"
+     x2="88mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1805" />
+  <line
+     x1="99mm"
+     y1="0mm"
+     x2="99mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1807" />
+  <line
+     x1="110mm"
+     y1="0mm"
+     x2="110mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1809" />
+  <line
+     x1="121mm"
+     y1="0mm"
+     x2="121mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1811" />
+  <line
+     x1="132mm"
+     y1="0mm"
+     x2="132mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1813" />
+  <line
+     x1="143mm"
+     y1="0mm"
+     x2="143mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1815" />
+  <line
+     x1="154mm"
+     y1="0mm"
+     x2="154mm"
+     y2="78mm"
+     stroke="#222222"
+     id="line1817" />
+  <line
+     x1="0mm"
+     y1="13mm"
+     x2="181mm"
+     y2="13mm"
+     stroke="#222222"
+     id="line1821" />
+  <line
+     x1="0mm"
+     y1="26mm"
+     x2="181mm"
+     y2="26mm"
+     stroke="#222222"
+     id="line1823" />
+  <line
+     x1="0mm"
+     y1="39mm"
+     x2="181mm"
+     y2="39mm"
+     stroke="#222222"
+     id="line1825" />
+  <line
+     x1="0mm"
+     y1="52mm"
+     x2="181mm"
+     y2="52mm"
+     stroke="#222222"
+     id="line1827" />
+  <line
+     x1="0mm"
+     y1="65mm"
+     x2="181mm"
+     y2="65mm"
+     stroke="#222222"
+     id="line1829" />
 </svg>
