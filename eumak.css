@@ -46,7 +46,7 @@ kbd {
 
 
 .keyboard {
-    font-family: "Andika";
+    font-family: "CharisSIL";
     background-color: #333;
     border-radius: 0.625rem;
     border-top: 0.15625rem solid #555;
@@ -90,6 +90,12 @@ kbd {
 }
 .keyboard .key>div:nth-child(n+3) {
     color: #AA4444;
+}
+.keyboard .key>div.greek {
+    color: #4488AA;
+}
+.keyboard .key>div.dead {
+    color: #666666;
 }
 .keyboard mod.key>div {
     width: 5rem;
