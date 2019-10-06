@@ -15,17 +15,17 @@
 // limitations under the License.
 
 
-// LEVELS 1 & 2
-//
-// ┌─────┐┌──────────────────────────────┐┌───────────────────────────────────────────────────┐
-// │ 2 4 ││ 2 = Shift  │ 4 = Shift+AltGr ││ [Mod]+[X]     -> áćéǵíḱĺḿńóṕŕśúẃýźőű              │
-// │ 1 3 ││ 1 = Normal │ 3 = AltGr       ││ [Mod]+[~],[X] -> àèìǹòùẁỳǜ                        │
-// └─────┘└──────────────────────────────┘│ [Mod]+[1],[X] -> áćéǵíḱĺḿńóṕŕśúẃýźḯǘ               │
-//                                        │ [Mod]+[2],[X] -> ǎčďěǧȟǐǰǩľňǒřšťǔžǚ               │
-//                                        └───────────────────────────────────────────────────┘
+// ┌─────┐┌───────────────────────────────────┐┌──────────────────────────────────────────────┐
+// │ 2 4 ││  2 = Shift    │  4 = Shift+AltGr  ││ [Mod]+[~],[X] -> àèìǹòùẁỳǜ ὰὲὴὶὸὺὼ           │
+// │ 1 3 ││  1 = Normal   │  3 = AltGr        ││ [Mod]+[1],[X] -> áćéǵíḱĺḿńóṕŕśúẃýźḯǘ άέήίόύώ │
+// └─────┘└───────────────────────────────────┘│ [Mod]+[2],[X] -> ǎčďěǧȟǐǰǩľňǒřšťǔžǚ          │
+// ┌──────────────────────────────────────────┐│ [Mod]+[3],[X] -> âĉêĝĥîĵôŝûŵŷẑ               │
+// │ [Mod]+[X] -> áćéǵíḱĺḿńóṕŕśúẃýźőű άέήίόύώ ││ [Mod]+[4],[X] -> āēḡīōūȳǟȫǖ                  │
+// │ [Mod]+[6] -> Toggle Latin/Greek          ││ [Mod]+[5],[X] -> ȧḃċḋėḟġḣıȷŀṁṅȯṗṙṡṫẇẋẏż      │
+// └──────────────────────────────────────────┘└──────────────────────────────────────────────┘
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━━━┓
-// │ @ ° │ ! ¡ │ " ½ │ # £ │ $ € │ % § │ & ¶ │ ' ÷ │ ( × │ ) · │ = ≠ │ ? ¿ │ * † ┃ ⌫ Backspace┃
-// │ ~ ` │ 1 ´ │ 2 ˇ │ 3 ^ │ 4 ¯ │ 5 ˙ │ 6 µ │ 7 { │ 8 [ │ 9 ] │ 0 } │ / \ │ + ± ┃            ┃
+// │ @ ° │ ! ¡ │ " ½ │ # £ │ $ € │ % § │ & ¶ │ | † │ ( « │ ) » │ = ≠ │ / \ │ * · ┃ ⌫ Backspace┃
+// │ ~ ` │ 1 ´ │ 2 ˇ │ 3 ^ │ 4 ¯ │ 5 ˙ │ 6 µ │ 7 { │ 8 [ │ 9 ] │ 0 } │ - ÷ │ + × ┃            ┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━━━━┫
 // ┃       ┃ Q Ă │ W Ł │ E Ę │ R Ŧ │ T Ț │ Y Ů │ U Ų │ I Į │ O Ø │ P Õ │ Ü Å │ Ï Ÿ ┃ Enter    ┃
 // ┃Tab ↹  ┃ q ă │ w ł │ e ę │ r ŧ │ t ț │ y ů │ u ų │ i į │ o ø │ p õ │ ü å │ ï ÿ ┃   ⏎      ┃
@@ -33,19 +33,35 @@
 // ┃         ┃ A Ą │ S Ș │ D Đ │ F Þ │ G Ģ │ H Ħ │ J Ñ │ K Ķ │ L Ļ │ Ö Œ │ Ä Æ │ Ë Ẅ ┃        ┃
 // ┃Caps ⇬   ┃ a ą │ s ș │ d đ │ f þ │ g ģ │ h ħ │ j ñ │ k ķ │ l ļ │ ö œ │ ä æ │ ë ẅ ┃        ┃
 // ┣━━━━━━━┳━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┷━━━━━┻━━━━━━━━┫
-// ┃       ┃     ┃ Z   │ X Ŭ │ C Ç │ V Ð │ B Ã │ N Ņ │ M Ŋ │ ; « │ : » │ _ ¦ ┃                ┃
-// ┃Shift ⇧┃Mod ⇮┃ z ß │ x ŭ │ c ç │ v ð │ b ã │ n ņ │ m ŋ │ , < │ . > │ - | ┃Shift ⇧         ┃
+// ┃       ┃     ┃ Z   │ X Ŭ │ C Ç │ V Ð │ B Ã │ N Ņ │ M Ŋ │ ; « │ : » │ ? ¿ ┃                ┃
+// ┃Shift ⇧┃Mod ⇮┃ z ß │ x ŭ │ c ç │ v ð │ b ã │ n ņ │ m ŋ │ , < │ . > │ ' _ ┃Shift ⇧         ┃
+// ┣━━━━━━━╋━━━━━┻━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴──┲━━┷━━━━┳┷━━━━━┻┳━━━━━━━┳━━━━━━━┫
+// ┃       ┃       ┃       ┃ ␣                              ⍽ ┃       ┃       ┃       ┃       ┃
+// ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣           Space              ⍽ ┃AltGr ⇮┃Meta   ┃Menu   ┃Ctrl   ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹──────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━━━━┓
+// │ @ ° │ ! ¡ │ " ½ │ # £ │ $ € │ % § │ & ¶ │ | † │ ( « │ ) » │ = ≠ │ / \ │ * · ┃ ⌫ Backspace┃
+// │ ~ ` │ 1 ´ │ 2 ˇ │ 3 ^ │ 4 ¯ │ 5 ˙ │ 6 µ │ 7 { │ 8 [ │ 9 ] │ 0 } │ - ÷ │ + × ┃            ┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━━━━┫
+// ┃       ┃ :   │     │ Ε   │ Ρ   │ Τ   │ Υ   │ Θ   │ Ι   │ Ο   │ Π   │ Ϋ   │ Ϊ   ┃ Enter    ┃
+// ┃Tab ↹  ┃ ;   │ ς   │ ε   │ ρ   │ τ   │ υ   │ θ   │ ι   │ ο   │ π   │ ϋ   │ ϊ   ┃   ⏎      ┃
+// ┣━━━━━━━┻━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┓        ┃
+// ┃         ┃ Α   │ Σ   │ Δ   │ Φ   │ Γ   │ Η   │ Ξ   │ Κ   │ Λ   │     │     │     ┃        ┃
+// ┃Caps ⇬   ┃ α   │ σ   │ δ   │ φ   │ γ   │ η   │ ξ   │ κ   │ λ   │     │     │     ┃        ┃
+// ┣━━━━━━━┳━┻━━━┱─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┬─┴───┲━┷━━━━━┻━━━━━━━━┫
+// ┃       ┃     ┃ Ζ   │ Χ   │ Ψ   │ Ω   │ Β   │ Ν   │ Μ   │ ; « │ : » │ ? ¿ ┃                ┃
+// ┃Shift ⇧┃Mod ⇮┃ ζ   │ χ   │ ψ   │ ω   │ β   │ ν   │ μ   │ , < │ . > │ ' _ ┃Shift ⇧         ┃
 // ┣━━━━━━━╋━━━━━┻━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴──┲━━┷━━━━┳┷━━━━━┻┳━━━━━━━┳━━━━━━━┫
 // ┃       ┃       ┃       ┃ ␣                              ⍽ ┃       ┃       ┃       ┃       ┃
 // ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣           Space              ⍽ ┃AltGr ⇮┃Meta   ┃Menu   ┃Ctrl   ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹──────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┻━━━━━━━┛
 
 
-default partial alphanumeric_keys
+default partial
 xkb_symbols "basic" {
 
-    include "eumak(mod_switch)"
     include "eumak(altgr_switch)"
+    include "eumak(mod_switch)"
 
     name[Group1] = "Latin";
     name[Group2] = "Greek";
@@ -94,11 +110,11 @@ xkb_symbols "basic" {
     key <AE10> { [ 0               , equal          , braceright      , notequal       , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] , 
                  [ 0               , equal          , braceright      , notequal       , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] };
     //           [---------------------------------------------------------------------------------------------------------------------------------------------]
-    key <AE11> { [ minus           , slash          , backslash       , division       , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] ,
-                 [ minus           , slash          , backslash       , division       , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] };
+    key <AE11> { [ minus           , slash          , division        , backslash      , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] ,
+                 [ minus           , slash          , division        , backslash      , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] };
     //           [---------------------------------------------------------------------------------------------------------------------------------------------]
-    key <AE12> { [ plus            , asterisk       , plusminus       , multiply       , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] ,
-                 [ plus            , asterisk       , plusminus       , multiply       , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] };
+    key <AE12> { [ plus            , asterisk       , multiply        , periodcentered , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] ,
+                 [ plus            , asterisk       , multiply        , periodcentered , NoSymbol        , NoSymbol        , NoSymbol        , NoSymbol        ] };
     //           [=============================================================================================================================================]
     //
     key.type[Group1] = "FOUR_LEVEL";
@@ -219,13 +235,13 @@ xkb_symbols "basic" {
                  [ Greek_lambda , Greek_LAMBDA                                                                                                          ] };
     //           [--------------------------------------------------------------------------------------------------------------------------------------]
     key <AC10> { [ odiaeresis   , Odiaeresis   , oe                    , OE          , odoubleacute      , Odoubleacute      , NoSymbol , NoSymbol      ] ,
-                 [                                                                                                                                      ] };
+                 [ NoSymbol     , NoSymbol                                                                                                              ] };
     //           [--------------------------------------------------------------------------------------------------------------------------------------]
     key <AC11> { [ adiaeresis   , Adiaeresis   , ae                    , AE          , NoSymbol          , NoSymbol          , U01FD    , U01FC         ] ,
-                 [                                                                                                                                      ] };
+                 [ NoSymbol     , NoSymbol                                                                                                              ] };
     //           [--------------------------------------------------------------------------------------------------------------------------------------]
     key <AC12> { [ ediaeresis   , Ediaeresis   , wdiaeresis            , Wdiaeresis  , NoSymbol          , NoSymbol          , NoSymbol , NoSymbol      ] ,
-                 [                                                                                                                                      ] };
+                 [ NoSymbol     , NoSymbol                                                                                                              ] };
     //           [======================================================================================================================================]
     //
     // ROW B
@@ -263,16 +279,6 @@ xkb_symbols "basic" {
 
 };
 
-// The [Mod] key (while pressed) chooses level 5.
-partial modifier_keys
-xkb_symbols "mod_switch" {
-    include "level5(modifier_mapping)"
-    key <LSGT> {
-      type[Group1] = "ONE_LEVEL",
-      symbols[Group1] = [ ISO_Level5_Shift ]
-    };
-};
-
 // The Right Alt key (while pressed) chooses level 3.
 partial modifier_keys
 xkb_symbols "altgr_switch" {
@@ -280,6 +286,16 @@ xkb_symbols "altgr_switch" {
     key <RALT> {
         type[Group1] = "ONE_LEVEL",
         symbols[Group1] = [ ISO_Level3_Shift ]
+    };
+};
+
+// The [Mod] key (while pressed) chooses level 5.
+partial modifier_keys
+xkb_symbols "mod_switch" {
+    include "level5(modifier_mapping)"
+    key <LSGT> {
+      type[Group1] = "ONE_LEVEL",
+      symbols[Group1] = [ ISO_Level5_Shift ]
     };
 };
 
