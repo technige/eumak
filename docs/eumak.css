@@ -19,7 +19,7 @@ html {
 }
 body {
     background-color: #FFF8E7;
-    font-family: "GentiumPlus";
+    font-family: "GentiumPlus", serif;
 }
 main {
     width: 90rem;
@@ -38,10 +38,12 @@ kbd {
     color: #fff;
     display: inline-block;
     margin: 0 0.15625rem;
+    min-width: 1em;
     padding: 0 0.5rem;
-    font-family: "CharisSIL";
+    font-family: "CharisSIL", serif;
     font-size: 75%;
     line-height: 2.5rem;
+    text-align: center;
 }
 
 
