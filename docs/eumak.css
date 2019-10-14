@@ -45,6 +45,17 @@ kbd {
     line-height: 2.5rem;
     text-align: center;
 }
+table {
+    border-spacing: 0.15625rem;
+}
+th {
+    background-color: #CCC6B8;
+    padding: 0.5rem;
+}
+td {
+    background-color: #E6DFD0;
+    padding: 0.5rem;
+}
 
 
 .keyboard {
@@ -99,7 +110,7 @@ kbd {
 .keyboard .key>div.dead {
     color: #666666;
 }
-.keyboard mod.key>div {
+.keyboard .mod.key>div {
     width: 5rem;
 }
 .keyboard .backspace.key,
