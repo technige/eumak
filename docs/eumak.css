@@ -57,13 +57,10 @@ td {
     background-color: #E6DFD0;
     padding: 0.5rem;
 }
-td kbd {
-    font-size: 60%;
-}
 
 
 .keyboard {
-    font-family: "CharisSIL";
+    font-family: "CharisSIL", serif;
     background-color: #333;
     border-radius: 0.625rem;
     border-top: 0.15625rem solid #555;
@@ -73,6 +70,22 @@ td kbd {
     padding: 0.15625rem;
     width: auto;
     display: inline-block;
+}
+.keyboard table.info {
+    font-family: "CharisSIL", serif;
+    font-size: 88%;
+    width: 100%;
+    line-height: 1.25em;
+}
+.keyboard table.info td {
+    background-color: #444;
+    color: #AAA;
+}
+.keyboard table.info .letters {
+    letter-spacing: 0.25em;
+}
+.keyboard table.info kbd {
+    margin: 0;
 }
 .keyboard .row {
     display: flex;
