@@ -29,21 +29,22 @@ main {
 }
 kbd {
     box-sizing: content-box;
-    border-radius: 0.3125rem;
-    border-top: 0.25rem solid #444;
-    border-right: 0.25rem solid #000;
-    border-bottom: 0.25rem solid #000;
-    border-left: 0.25rem solid #444;
+    border-radius: 0.3125em;
+    border-top: 0.1875em solid #444;
+    border-right: 0.1875em solid #000;
+    border-bottom: 0.1875em solid #000;
+    border-left: 0.1875em solid #444;
     background-color: #222;
     color: #fff;
     display: inline-block;
-    margin: 0 0.15625rem;
+    margin: 0 0.1875em;
     min-width: 1em;
-    padding: 0 0.5rem;
+    padding: 0 0.375em;
     font-family: "CharisSIL", serif;
-    font-size: 75%;
-    line-height: 2.5rem;
+    font-size: 62.5%;
+    line-height: 1.75em;
     text-align: center;
+    vertical-align: 0.125em;
 }
 table {
     border-spacing: 0.15625rem;
@@ -55,6 +56,9 @@ th {
 td {
     background-color: #E6DFD0;
     padding: 0.5rem;
+}
+td kbd {
+    font-size: 60%;
 }
 
 
