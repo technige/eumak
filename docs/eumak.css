@@ -93,7 +93,7 @@ td {
 }
 .keyboard .key {
     box-sizing: content-box;
-    width: 5rem;
+    min-width: 5rem;
     height: 5rem;
     border-radius: 0.625rem;
     border-top: 0.15625rem solid #444;
@@ -151,6 +151,7 @@ td {
     width: 8.125rem;
 }
 .keyboard .upper.left.enter.key {
+    min-width: 1.5625rem;
     width: 1.5625rem;
     border-right-width: 0;
     border-top-right-radius: 0;
@@ -159,6 +160,7 @@ td {
     z-index: 1;
 }
 .keyboard .upper.right.enter.key {
+    min-width: 6.5625rem;
     width: 6.5625rem;
     border-left-width: 0;
     border-bottom-width: 0;
