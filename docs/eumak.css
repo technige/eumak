@@ -15,7 +15,7 @@
 }
 
 html {
-    font-size: 13px;
+    font-size: 12px;
 }
 body {
     background-color: #FFF8E7;
@@ -26,6 +26,11 @@ main {
     font-size: 2rem;
     line-height: 3.25rem;
     margin: 1rem 3rem;
+}
+footer {
+    font-size: 1.5rem;
+    border-top: 0.1875em solid #CCC;
+    padding-top: 2rem;
 }
 kbd {
     box-sizing: content-box;
