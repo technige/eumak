@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Eumak: The European Keyboard Layout</title>
+    <title>Eumak - The European Multilingual Keyboard Layout</title>
     <link rel="stylesheet" href="eumak.css">
     <meta charset="UTF-8" />
 </head>
@@ -11,9 +11,9 @@
 
 <main>
 <header>
-<h1>Eumak: The European Keyboard Layout</h1>
+<h1>Eumak - The European Multilingual Keyboard Layout</h1>
 <p style="font-style:italic">
-    Eumak is a Latin keyboard layout for anyone wanting to type in
+    Eumak is a multilingual keyboard layout for anyone wanting to type in
         English,
         German,
         French,
@@ -504,9 +504,20 @@
 
 
     <h2>How can I use it?</h2>
+    <h3>Linux (XKB)</h3>
+    <h4>To Install</h4>
+    <pre><code>$ curl https://raw.githubusercontent.com/technige/eumak/master/eumak.py | sudo python - -i</code></pre>
+    <h4>To Activate</h4>
+    <pre><code>$ setxkbmap eumak</code></pre>
+    <h4>To Uninstall</h4>
+    <pre><code>$ curl https://raw.githubusercontent.com/technige/eumak/master/eumak.py | sudo python - -u</code></pre>
+    <h3>Windows</h3>
+    <p>Not yet available</p>
+    <h3>MacOS</h3>
+    <p>Not yet available</p>
 
-
-    <h2>Letters</h2>
+    <h2>The Layout</h2>
+    <h3>Letters</h3>
     <p>
         The basic layout of the letters is grounded in QWERTY. While other formats (AZERTY, QWERTZ,
         etc) are commonly in use by some language-specific layouts, QWERTY is both the
@@ -535,9 +546,7 @@
         <tr><td><kbd>AltGr</kbd>+<kbd>C</kbd></td><td style="text-align:center">ç</td></tr>
         <tr><td><kbd>Shift</kbd>+<kbd>AltGr</kbd>+<kbd>C</kbd></td><td style="text-align:center">Ç</td></tr>
     </table>
-
-
-    <h2>Numbers &amp; Symbols</h2>
+    <h3>Numbers &amp; Symbols</h3>
     <p>
         Numbers hold their regular place on the top row with shifted values filled by characters
         commonly found in those positions. And six symbol keys fill most of the remaining spots,
@@ -559,9 +568,7 @@
         <tr><td><kbd>AltGr</kbd>+<kbd>+</kbd></td><td style="text-align:center">×</td></tr>
         <tr><td><kbd>Shift</kbd>+<kbd>AltGr</kbd>+<kbd>+</kbd></td><td style="text-align:center">·</td></tr>
     </table>
-
-
-    <h2>Modified Characters</h2>
+    <h3>Modified Characters</h3>
     <p>
         The key to the left of <kbd>Z</kbd> is <kbd>Mod</kbd>, the <em>modifier</em> key, which
         can be used to access accented characters. On most layouts, this key is assigned to symbols
@@ -616,6 +623,7 @@
                 src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a><br/>This work is
         licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative
         Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+        <p>Copyright &copy; <a href="https://twitter.com/technige">Nigel Small</a> 2019</p>
     </footer>
 
 </main>
